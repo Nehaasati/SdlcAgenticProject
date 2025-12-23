@@ -15,11 +15,3 @@ __pycache__/
 **/__pycache__/
 *.py[cod]
 *.pyo
-*.pyd
-
-# Ignore compiled files
-*.so
-
-# Ignore system files
-.DS_Store
-Thumbs.db
