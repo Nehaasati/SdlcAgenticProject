@@ -1,5 +1,4 @@
 from pydantic import BaseModel, Field
-from src.sdlc.state.state import State
 import importlib
 import subprocess
 import webbrowser
@@ -24,11 +23,11 @@ class SDLCNode:
         self.llm = model
         self.code_gen_chain = model.with_structured_output(code, include_raw=False)
         
-    def Initial_requirements(self,state:SDLC)->SDLC:
-        """user provide intial input collect project requiremntfrom user_input"""
-        if not state.requirements:
-          state.requirements=input("enter project requirements:")
-          return state.model_copy(update={"requirements": state.requirements})
+    ##def Initial_requirements(self,state:SDLC)->SDLC:
+     ##   """user provide intial input collect project requiremntfrom user_input"""
+       ## if not state.requirements:
+        ##  state.requirements=input("enter project requirements:")
+        ##  return state.model_copy(update={"requirements": state.requirements})'''
 
 
     def User_story(self,state:SDLC)->SDLC:

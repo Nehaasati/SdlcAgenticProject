@@ -7,7 +7,7 @@ class SDLC(BaseModel):
     """State model for SDLC workflow - All fields properly typed"""
     
     # Required field
-    requirements: str
+    #requirements: str
     
     # Optional artifact fields with proper typing
     User_story: Optional[str] = None
