@@ -1,6 +1,7 @@
 SoftwareAgentic - AI-Powered SDLC Automation
 An intelligent Software Development Life Cycle automation system that leverages LangGraph and Groq to streamline the entire development workflow from requirements to deployment.
 
+<img width="207" height="955" alt="image" src="https://github.com/user-attachments/assets/b4fbb381-30ab-4778-9257-ac9e5bc6b029" />
 
 
 🎯 Overview
@@ -103,3 +104,4 @@ Artifact Management: Download generated user stories, designs, code, and tests a
 
 output:
 <img width="1892" height="962" alt="Screenshot 2026-01-05 140901" src="https://github.com/user-attachments/assets/741cc28c-ff6f-44eb-8e20-8d3a66d996cf" />
+<img width="1898" height="909" alt="Screenshot 2026-01-05 140806" src="https://github.com/user-attachments/assets/fc0635e4-8167-43c4-bcf7-136bd9806409" />
